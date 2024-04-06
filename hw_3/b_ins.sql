@@ -1,4 +1,4 @@
-/*
+
 --HW3b1
 INSERT INTO AnimalSpecies VALUES(2, 'Tropical elephant', 'A', 35.5, 'tropical', 1, 3, 100.0);
 INSERT INTO AnimalSpecies VALUES(3, 'Elephant', 'A', 35.5, ' temperate, tropical', 1, 3, 100.0);
@@ -19,7 +19,7 @@ INSERT INTO Specimen VALUES(1008, 3, 104, 'Dumbo', '01/03/2016', 'F', 30.0, 100.
 UPDATE Habitat SET Temperature = 45 WHERE HID =103;
 INSERT INTO Specimen VALUES(1009, 3, 103, 'Dumbo', '01/03/2016', 'F', 30.0, 100.0);
 --------------------------
-*/
+
 
 --HW3b4
 /*Update habitat to "kill animals"*/

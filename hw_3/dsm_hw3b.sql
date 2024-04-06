@@ -39,7 +39,7 @@ BEGIN
         SELECT temperature INTO temp FROM Habitat WHERE HID = specimen.HID;
         SELECT temperature INTO aniTemp FROM AnimalSpecies WHERE AID = specimen.AID;
 
-        IF temp NOT BETWEEN (aniTemp - 7) AND (aniTemp + 7)
+        IF temp BETWEEN (aniTemp - 7) AND (aniTemp + 7)
             THEN
                 RAISE EXCEPTION 'The Temperature difference can kill animals';
         END IF;

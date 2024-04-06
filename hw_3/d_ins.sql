@@ -8,6 +8,7 @@ INSERT INTO Ancestry VALUES(1004, 1003);
 /*Two females*/
 INSERT INTO Ancestry VALUES(1001, 1004);
 INSERT INTO Ancestry VALUES(1001, 1002);
+INSERT INTO Ancestry VALUES(1001, 1003);
 --------------------------
 
 --HW3d2

@@ -1,5 +1,3 @@
-
-
 CREATE FUNCTION check_compound_size() RETURNS TRIGGER AS $$
 DECLARE
     fSize numeric;

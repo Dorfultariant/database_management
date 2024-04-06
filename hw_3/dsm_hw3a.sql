@@ -1,4 +1,3 @@
-
 CREATE FUNCTION specimen_valid_age() RETURNS TRIGGER AS $$
 BEGIN
     IF NEW.BirthDate > (
@@ -37,3 +36,4 @@ CREATE TRIGGER ancestry_correct_age
     BEFORE INSERT OR UPDATE
     ON Ancestry
 FOR EACH ROW EXECUTE PROCEDURE ancestry_valid_age();
+
